@@ -14,3 +14,10 @@ class baseClass1 {
         cout << "Halo saya function dari base class 2";
     }
 };
+
+class derivedClass : public baseClass1 { 
+    public:
+    void perkenalan() {
+        cout << "Halo saya function dari derived class";
+    }
+};
