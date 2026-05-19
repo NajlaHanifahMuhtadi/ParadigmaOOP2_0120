@@ -21,3 +21,10 @@ class derivedClass : public baseClass1 {
         cout << "Halo saya function dari derived class";
     }
 };
+
+int main() {
+    derivedClass a;
+    a.perkenalan();
+    
+    return 0;
+}
